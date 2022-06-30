@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.messenger__title {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.messenger__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.messenger__area {
+    margin-top: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.messenger__message {
+
+}
+
+.messenger__message > span {
+    font-weight: 600;
+}
+
+.messenger__control {
+    margin-top: 2rem;
+    display: flex;
+}
+
+
+.messenger__input {
+    flex: 1;
+    margin-right: 1rem;
+    font-size: 18px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+}
+
+.messenger__submit {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0.2rem 0.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+
+
+    transition: color linear .1s, background-color linear .1s;
+}
+
+.messenger__submit:hover {
+    background-color: black;
+    color: white;
+}
+
+.messenger__client {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.messenger__input--client {
+    margin-right: 1rem;
+    font-size: 18px;
+    padding: 0.2rem 0.6rem;
+    border-radius: 5px;
+    width: 200px;
+}

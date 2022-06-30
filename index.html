@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div class="messenger">
+            <h1 class="messenger__title">Общий чат</h1>
+            <div class="messenger__inner">
+                <div class="messenger__area" id="chatBox">
+
+                </div>
+                <div class="messenger__control">
+                    <input type="text" class="messenger__input" id="inputMsg" placeholder="Напишите сообщение...">
+                    <button class="messenger__submit" id="send">Отправить</button>
+                </div>
+                
+                <div class="messenger__error"></div>
+
+                <div class="messenger__client">
+                    <input type="text" class="messenger__input--client" id="inputName" placeholder="Имя">
+                    <button class="messenger__submit" id="saveNameBtn">Cохранить</button>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+<script src="static/js/script.js"></script>
+</body>
+</html>
